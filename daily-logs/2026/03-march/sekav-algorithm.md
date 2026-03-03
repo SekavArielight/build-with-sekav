@@ -1,0 +1,21 @@
+# Day 62
+
+**Date:** 2026-03-03 (ISO)
+
+## What I Learned
+
+### Sekav Algorithm
+
+---
+
+### Understanding Loops: Sequential and Blocking Execution
+
+**Key concept:** In Go (and most languages), loops execute sequentially.
+
+They follow a strict execution model:
+
+1. Execute the current block completely.
+2. Move to the next iteration.
+3. No jumping ahead or parallel execution.
+
+This sequential nature is fundamental to loop behavior and is essential for predictable program flow.
