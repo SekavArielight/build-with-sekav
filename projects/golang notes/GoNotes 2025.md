@@ -19,3 +19,26 @@ Go supports first-class and higher-order functions, which are just fancy ways of
 Ranges in Go iterate over elements of a dataset - gopher noobs (YouTube)
 In Go, the for range statement is a built-in mechanism used to iterate over elements in various data structures like arrays, slices, maps, strings, and channels.
 You can omit the index or value using the blank identifier _ if you only need one of the values:
+
+# 12032026
+
+Source: [exercism](https://exercism.org)
+
+## Packages
+
+Go applications are organized in packages.
+A package is a collection of source files located in the same directory.
+All source files in a directory must share the same package name.
+When a package is imported, only entities (functions, types, variables, constants) whose names start with a capital letter can be used / accessed.
+The recommended style of naming in Go is that identifiers will be named using `camelCase`, except for those meant to be accessible across packages which should be `PascalCase`.
+
+```go
+package lasagna
+```
+
+## Variables
+
+Go is statically-typed, which means all variables [must have a defined type](https://en.wikipedia.org/wiki/Type_system) at compile-time.
+
+Once declared, variables can be assigned values using the `=` operator.
+Once declared, a variable's type can never change.
