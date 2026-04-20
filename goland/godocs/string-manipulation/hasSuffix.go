@@ -5,9 +5,9 @@ import (
 	"strings"
 )
 
-func main() {
-	hasSuffix()
-}
+// func main() {
+// 	hasSuffix()
+// }
 
 func hasSuffix() {
 	variable := strings.HasSuffix("jude", "e")
